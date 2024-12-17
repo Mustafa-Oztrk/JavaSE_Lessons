@@ -12,8 +12,10 @@ public class _8_Calendar_3 {
         System.out.println(calendar.getTime());
         System.out.println("Dakika : " + calendar.getTime().getMinutes());
         System.out.println("Saat : " + calendar.getTime().getHours());
-
         Locale locale = new Locale("tr","TR");
+        String country = locale.getCountry();
+        String displa = locale.getDisplayName();
+        System.out.println(country);
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MMMM-yyyy HH:mm:ss zzzz",locale);
         Calendar calendar1 = Calendar.getInstance();
         String trStr = simpleDateFormat.format(calendar1.getTime());
