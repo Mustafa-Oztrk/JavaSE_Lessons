@@ -2,7 +2,7 @@ package Lessons;
 
 public class _5_StringBuilder {
     public static void main(String[] args) {
-        //Strngbuiler
+        //Stringbuiler
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Mustafa ").append(" Java ").append(" Seviyor");
         String toChange = stringBuilder.toString();

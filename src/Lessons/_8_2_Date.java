@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class _8_Date_2 {
+public class _8_2_Date {
     public static void main(String[] args) {
 
         System.out.println(System.currentTimeMillis()  );

@@ -29,6 +29,7 @@ public class _2_Math {
         // ayı 0.5 den yukarı ise yukarı 0.5 den aşağı ise aşağı yuvarlar
         System.out.println(Math.round(5.4));
 
+        // 0 ile 100 arasında sayılar üretme
         Random ran = new Random(100);
 
     }

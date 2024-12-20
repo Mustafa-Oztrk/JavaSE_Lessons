@@ -2,7 +2,7 @@ package Lessons;
 
 import java.util.Date;
 
-public class _8_Date {
+public class _8_1_Date {
     public static void main(String[] args) {
         // Anlık tarih ve saati verir
         Date date = new Date();
